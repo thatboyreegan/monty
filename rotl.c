@@ -22,4 +22,5 @@ void rotl(stack_t **stack, unsigned int line_number)
 		next->prev = NULL;
 		*stack = next;
 	}
+	UNUSED(line_number);
 }

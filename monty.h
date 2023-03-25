@@ -6,6 +6,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+#define UNUSED(x) (void)(x)
+
+
 extern FILE *input;
 
 /**

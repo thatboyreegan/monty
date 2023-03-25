@@ -4,7 +4,6 @@
 *rotr - flips a stack.
 *@stack: the stack to.
 *@line_number: the line number.
-*Return: None.
 */
 
 void rotr(stack_t **stack, unsigned int line_number)
@@ -21,4 +20,5 @@ void rotr(stack_t **stack, unsigned int line_number)
 		temp->next = *stack;
 		*stack = temp;
 	}
+	UNUSED(line_number);
 }

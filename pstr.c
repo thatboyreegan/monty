@@ -22,4 +22,6 @@ void pstr(stack_t **stack, unsigned int line_number)
 		putchar(temp->n);
 		temp = temp->next;
 	}
+	puts("");
+	UNUSED(line_number);
 }

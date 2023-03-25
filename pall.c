@@ -12,11 +12,14 @@ void pall(stack_t **stack, unsigned int line_number)
 	stack_t *temp = *stack;
 
 	if (!temp)
+	{
 		;
+	}
 
 	while (temp != NULL)
 	{
 		printf("%d\n", temp->n);
 		temp = temp->next;
 	}
+	UNUSED(line_number);
 }
